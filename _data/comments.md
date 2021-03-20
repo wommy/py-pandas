@@ -1,0 +1,106 @@
+# some comments on products_export.csv
+
+## what are the columns
+
+- handle
+- title
+- body html
+- vendor
+- type
+- tags
+- published
+- option1 name
+- option1 value
+- option2 name
+- option2 value
+- option3 name
+- option3 value
+- variant sku
+- variant grams
+- variant inventory tracker
+- variant inventory quantity
+- variant inventory policy
+- variant inventory service
+- variant price
+- variant compare at price
+- variant requires shipping
+- variant taxable
+- variant barcode
+- image src
+- image position
+- image alt text
+- gift card
+- seo title
+- seo description
+- google shopping / google product category
+- google shopping / gender
+- google shopping / age group
+- google shopping / mpn
+- google shopping / adwords grouping
+- google shopping / adwords label
+- google shopping / condition
+- google shopping / custom product
+- google shopping / custom label 0
+- google shopping / custom label 1
+- google shopping / custom label 2
+- google shopping / custom label 3
+- google shopping / custom label 4
+- varant image
+- variant weight unit
+- variant tax code
+- cost per item
+- status
+
+### i turned this into
+
+product:
+- handle
+- title
+- body html
+- vendor
+- type
+- tags
+- published
+- option[1-3]:
+        - name
+        - value
+- variant:
+        - sku
+        - grams
+        - inventory:
+                - tracker
+                - quantity
+                - policy
+                - service
+        - price
+        - compare at price
+        - requires shipping
+        - taxable
+        - barcode
+- image:
+        - src
+        - position
+        - alt text
+- gift card
+- seo:
+        - title
+        - description
+- google shopping:
+        - google product category
+        - gender
+        - age group
+        - mpn
+        - adwords:
+                - grouping
+                - label
+        - condition
+        - custom:
+                - product
+                - label[0-4]
+- variant:
+        - image
+        - weight unit
+        - tax code
+- cost per item
+- status
+
