@@ -1,0 +1,62 @@
+[
+	{
+		"Vendor": "Down To Earth",
+		"products": [
+			{
+				"Handle": "down-to-earth-citrus-mix-6-3-3",
+				"Title": "Down To Earth - Citrus Mix 6-3-3",
+				"Body (HTML)": "<h3>DETAILS</h3>",
+				"Type": "",
+				"Tags": "ammendment",
+				"Published": false,
+				"Option": {
+					"Size": "Down To Earth - Citrus Mix 6-3-3 5 lbs",
+					"": ""
+				},
+				"Variant": {
+					"SKU": "",
+					"Grams": 0,
+					"Inventory Tracker": "",
+					"Inventory Qty": 0,
+					"Inventory Policy": "deny",
+					"Fulfillment Service": "manual",
+					"Price": 9999,
+					"Compare At Price": "",
+					"Requires Shipping": true,
+					"Taxable": true,
+					"Barcode": ""
+				},
+				"Image": {
+					"Src": "https://cdn.shopify.com/s/files/1/0417/5675/4069/products/07863-Right.jpg?v=1615590979",
+					"Position": 1,
+					"Alt Text": ""
+				},
+				"Gift Card": false,
+				"SEO Title": "",
+				"SEO Description": "",
+				"Google Shopping": {
+					"Google Product Category": "",
+					"Gender": "",
+					"Age Group": "",
+					"MPN": "",
+					"AdWords": {
+						"Grouping": "",
+						"Labels": ""
+					},
+					"Condition": "",
+					"Custom": {
+						"Product": "",
+						"Label": ["", "", "", "", ""]
+					}
+				},
+				"Variant2": {
+					"Image": "https://cdn.shopify.com/s/files/1/0417/5675/4069/products/07863-Right.jpg?v=1615590979",
+					"Weight Unit": "kg",
+					"Tax Code": ""
+				},
+				"Cost per item": "",
+				"Status": "draft"
+			}
+		]
+	}
+]
