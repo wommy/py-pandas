@@ -1,0 +1,25 @@
+---
+- Vendor: Down To Earth
+  products:
+    - Handle: down-to-earth-citrus-mix-6-3-3
+      Title: Down To Earth - Citrus Mix 6-3-3
+      Body (HTML): "<h3>DETAILS</h3>"
+      Tags: ammendment
+      Published: false
+      Option:
+        Size: Down To Earth - Citrus Mix 6-3-3 5 lbs
+      Variant:
+        Grams: 0
+        Inventory Qty: 0
+        Inventory Policy: deny
+        Fulfillment Service: manual
+        Price: 9999
+        Requires Shipping: true
+        Taxable: true
+        Image: https://cdn.shopify.com/s/files/1/0417/5675/4069/products/07863-Right.jpg?v=1615590979
+        Weight Unit: kg
+      Image:
+        Src: https://cdn.shopify.com/s/files/1/0417/5675/4069/products/07863-Right.jpg?v=1615590979
+        Position: 1
+      Gift Card: false
+      Status: draft

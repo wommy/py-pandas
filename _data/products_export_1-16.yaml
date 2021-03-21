@@ -1,0 +1,29 @@
+---
+- Vendor: Down To Earth
+  products:
+    - Handle: down-to-earth-citrus-mix-6-3-3 # ID: slugify( title )
+      Title: Down To Earth - Citrus Mix 6-3-3 # title: Vendor+' - '+Name
+      Name: Citrus Mix 6-3-3 # new
+      # important
+      Status: draft
+      Published: false
+      # getting into columns
+      Option:
+        lbs: 5
+      Image:
+        Src: https://cdn.shopify.com/s/files/1/0417/5675/4069/products/07863-Right.jpg?v=1615590979
+        Position: 1
+      # unimportant ? defaults
+      Body (HTML): "<h3>DETAILS</h3>"
+      Tags: ammendment
+      Variant:
+        Grams: 0
+        Inventory Qty: 0
+        Inventory Policy: deny
+        Fulfillment Service: manual
+        Price: 9999
+        Requires Shipping: true
+        Taxable: true
+        Image: https://cdn.shopify.com/s/files/1/0417/5675/4069/products/07863-Right.jpg?v=1615590979
+        Weight Unit: kg
+      Gift Card: false
