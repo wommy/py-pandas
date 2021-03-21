@@ -13,9 +13,17 @@
 					"": ""
 				},
 				"Variant": {
-					"Image": "https://cdn.shopify.com/s/files/1/0417/5675/4069/products/07863-Right.jpg?v=1615590979",
-					"Weight Unit": "kg",
-					"Tax Code": ""
+					"SKU": "",
+					"Grams": 0,
+					"Inventory Tracker": "",
+					"Inventory Qty": 0,
+					"Inventory Policy": "deny",
+					"Fulfillment Service": "manual",
+					"Price": 9999,
+					"Compare At Price": "",
+					"Requires Shipping": true,
+					"Taxable": true,
+					"Barcode": ""
 				},
 				"Image": {
 					"Src": "https://cdn.shopify.com/s/files/1/0417/5675/4069/products/07863-Right.jpg?v=1615590979",
@@ -39,6 +47,11 @@
 						"Product": "",
 						"Label": ["", "", "", "", ""]
 					}
+				},
+				"Variant2": {
+					"Image": "https://cdn.shopify.com/s/files/1/0417/5675/4069/products/07863-Right.jpg?v=1615590979",
+					"Weight Unit": "kg",
+					"Tax Code": ""
 				},
 				"Cost per item": "",
 				"Status": "draft"
